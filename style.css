@@ -18,13 +18,26 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/mark.png);
+   
     background-color: rgb(26, 25, 25);
     background-size: cover;
     background-position: center;
 }
+
+
+
+.my-profile{
+    width: 45%;
+    float: left;
+    border-radius: 30px;
+    margin-right: 30px;
+    
+   
+}
+
 .container{
-    padding: 10px 10%;
+    
+    padding: 20px 20%;
 }
 /*-------this creates some display effect of the Home,Services,Portfolio--------*/
 nav{
@@ -34,7 +47,7 @@ nav{
     flex-wrap: wrap;
 }
 .logo{
-    width: 250px;
+    width: 150px;
 }
 nav ul li{
     display: inline-block;
@@ -62,8 +75,10 @@ width: 100%;
 }
 
 .header-text{
-margin-top: 20px;
-font-size: 20px;
+margin-top: 10px;
+font-size: 50px;
+margin: 50px;
+display: inline-block;
 }
 .header-text h1{
     font-size: 50px;
@@ -371,10 +386,21 @@ nav .fas{
         margin-top: 100%;
         font-size: 16px;
     }
+
+    .container{
+    
+        padding: 10px;
+        margin-bottom: 100px;
+    }
         .header-text h1{
             font-size: 30px;
             
         }
+        .logo{
+            width: 100PX;
+        }
+
+        
         nav .fas{
             display: block;
             font-size: 25px;
